@@ -8,7 +8,8 @@ Multiline comments """     """
       c = 1.5
       
       
-List:
+List
+
       b = [ "Hello", "World" ]
       
       c = [ "Hola", 1, 2 ]
@@ -19,13 +20,15 @@ List:
       b + [ 1, 2, 3, 4, 5 ]
       -> "Hello", "World", 1, 2, 3, 4, 5
       
-Dictionaries:
+Dictionaries
+
       c = { "FavoriteColour" : "Orange" }
       
       c["FavoriteColour"]
       -> Orange
       
 Set
+
       d = { 1, 2, 3, 4, 4, 4, 5, 5, 5 }
       -> 1,2,3,4,5
       
