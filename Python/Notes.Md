@@ -3,6 +3,7 @@ Comments #
 Multiline comments """     """
 
 - No declaration of variables. Use as it is:
+
       a = 1
       b = "Hello"
       c = 1.5
