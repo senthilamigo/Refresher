@@ -10,6 +10,7 @@ Multiline comments """     """
       
 List:
       b = [ "Hello", "World" ]
+      
       c = [ "Hola", 1, 2 ]
       
       b[1]
@@ -20,6 +21,7 @@ List:
       
 Dictionaries:
       c = { "FavoriteColour" : "Orange" }
+      
       c["FavoriteColour"]
       -> Orange
       
@@ -28,6 +30,7 @@ Set
       -> 1,2,3,4,5
       
 Conditions
+
      if 1 == 1:
           print ("Of course")
      if 1 == 2:
@@ -36,6 +39,7 @@ Conditions
      Operators: !=, <, >, <=, >=
      Boolean: True, False
 Loops
+
       b = ["Helllo" , "World" ]
       for item in b:
            print (item)
@@ -47,17 +51,20 @@ Loops
            print(x)
            x -= 1
            
-Exception:
+Exception
+
      try :
          print (b[2])
      except IndexError:
          print("Item not on list"
          
 Function
+
      def func():
          print("Hello World")
          
 Objeccts
+
      class Person:
            def __init__(self):
                  print("New person")
@@ -65,6 +72,7 @@ Objeccts
      p = Person()
      
 Inheritance
+
     class Francis(Person):
           def __init__(self):
                super().__init__()
@@ -74,6 +82,7 @@ Inheritance
     -> I am Francis
     
 Modules
+
     import math
     
     print (math.pi)
